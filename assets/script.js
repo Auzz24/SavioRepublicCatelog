@@ -5,8 +5,16 @@ const books = [
         isbn: "1234567890",
         author: "Author 1",
         genre: "Genre 1",
+        coverUrl: "images/rZung.webp"
     },
-    // Add more book objects here
+    {
+        title: "Book 2",
+        description: "This is a description for book 2.",
+        isbn: "1234567899",
+        author: "Author 2",
+        genre: "Genre 2",
+        coverUrl: "images/rZung.webp"
+    }
 ];
 
 const bookContainer = document.getElementById("book-container");
@@ -14,6 +22,12 @@ const bookContainer = document.getElementById("book-container");
 books.forEach(book => {
     const bookDiv = document.createElement("div");
     bookDiv.className = "book";
+
+    const bookCover = document.createElement("img");
+    bookCover.className = "book-cover";
+    bookCover.src = book.coverUrl;
+    bookCover.alt = `Cover image for ${book.title}`;
+    bookDiv.appendChild(bookCover);
 
     const bookTitle = document.createElement("h2");
     bookTitle.className = "book-title";
