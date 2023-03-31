@@ -3,13 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+    background-color: rgb(180, 69, 69);
+    color: white;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 40px;
+    background-color: gray;
+    outline: 2px solid white;
 }
-
 #book-container {
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +34,8 @@ h1 {
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
+  background-color:gray;
+  outline: 2px solid white;
 }
 
 .book-title {
