@@ -3,15 +3,22 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: rgb(180, 69, 69);
-    color: white;
+    background-color: white;
+    color: gray;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 40px;
-    background-color: gray;
-    outline: 2px solid white;
+    background-color: rgb(180, 69, 69);
+    outline: 4px solid gray;
+    color: white;
 }
 #book-container {
     display: flex;
@@ -34,8 +41,8 @@ h1 {
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
-  background-color:gray;
-  outline: 2px solid white;
+  background-color: white;
+  outline: 4px solid gray;
 }
 
 .book-title {
