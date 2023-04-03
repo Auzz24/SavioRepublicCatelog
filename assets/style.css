@@ -5,6 +5,7 @@ body {
     padding: 20px;
     background-color: white;
     color: gray;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 ul {
@@ -12,28 +13,27 @@ ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding-right: 25px;
 }
 
 h1 {
-    /* margin: 20px; */
     text-align: center;
-    background-color: rgb(180, 69, 69);
+    background-color: rgb(188, 54, 54);
     outline: 4px solid gray;
     color: white;
 }
 section{
     background-color: white;
-    outline: 4px solid gray;
 }
 
 #newRel{
     /* margin-top: 20px; */
-    background-color: rgb(180, 69, 69) ;
+    background-color: white;
 }
 
 
 #backList{
-    background-color: rgb(180, 69, 69);
+    background-color:white;
 }
 #book-container {
     padding-top: 10px;
@@ -43,6 +43,7 @@ section{
   }
 
   #backListBook-container {
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -59,6 +60,7 @@ section{
   box-sizing: border-box;
   background-color: white;
   outline: 4px solid gray;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
 .book-title {
@@ -75,4 +77,38 @@ section{
     height: auto;
     margin-bottom: 10px;
   }
+
+#contact-section {
+    margin-top: 40px;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contact-form label {
+    margin: 5px 0;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  #contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
   
