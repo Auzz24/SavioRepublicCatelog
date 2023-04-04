@@ -1,8 +1,10 @@
 const books = [
     {
-        title: "Slay the Narcissist",
-        subtitle: "",
-        description: "Slay narcissists—the ultimate bullies—in negotiation by following this simple formula, developed by a top attorney, which takes you from feeling like a victim to being victorious! Whether your relationship is business or personal, narcissists have a way of making you feel like you are so special. The relationship begins with you believing they are the most charming, charismatic person you’ve ever met, and ends up being one in which hell actually would be a relief. Their skill for reading people is unparalleled. Their knack for honing in on their prey is cunning. The path into hell is camouflaged, artfully concealed under lies and charm, red flags skillfully diverted away, until you finally realize that their tactics have left you feeling utterly drained to your soul. The population of narcissists is becoming an epidemic, and thus, we can no longer continue to ignore it. The problem is that we’ve been applying a blanket approach to negotiation and communication with narcissists and expecting them to work like they do with reasonable people. But narcissists’ brains are not wired the same as reasonable people and therefore they do not think in the same way. That is why a conventional approach to negotiation always fails.But there wasn’t a playbook on HOW to deal with them…until now.Imagine you could communicate with narcissists in a way that leaves you feeling accomplished instead of fearful of what they are going to do, hide, or lie about next. You could transform your relationship with conflict and live life the way you want to. Rebecca Zung’s revolutionary SLAY Methodology will show you how to handle with narcissists once and for all, and once you conquer them anything is possible. This about you feeling valued, honored, and respected and setting yourself up so nothing and no one can ever infringe on that. After twenty years of dealing with narcissists as an attorney (including as clients and opposing clients) and unfortunately, dealing with them in her personal life, Rebecca has a deep understanding of a narcissist’s psyche, which she’s now turned into a simple step by step process to get what you want. In this book, Zung shares her framework to SLAY your negotiation with the narcissist. By the time you’re finished reading, you will know how to shift the narrative, the conversation, and the dynamic of power and be more confident and empowered in every aspect of your life!",
+        title: "SLAY the Bully",
+        subtitle: "How to Negotiate with a Narcissist and Win",
+        description: "Slay narcissists—the ultimate bullies—in negotiation by following this simple formula, developed by a top attorney, which takes you from feeling like a victim to being victorious! Whether your relationship is business or personal, narcissists have a way of making you feel like you are so special. The relationship begins with you believing they are the most charming, charismatic person you’ve ever met, and ends up being one in which hell actually would be a relief. Their skill for reading people is unparalleled. Their knack for honing in on their prey is cunning. The path into hell is camouflaged, artfully concealed under lies and charm, red flags skillfully diverted away, until you finally realize that their tactics have left you feeling utterly drained to your soul. The population of narcissists is becoming an epidemic, and thus, we can no longer continue to ignore it. The problem is that we’ve been applying a blanket approach to negotiation and communication with narcissists and expecting them to work like they do with reasonable people. But narcissists’ brains are not wired the same as reasonable people and therefore they do not think in the same way. That is why a conventional approach to negotiation always fails.",
+        descriptionTwo: "But there wasn’t a playbook on HOW to deal with them…until now.",
+        descriptionThree: " Imagine you could communicate with narcissists in a way that leaves you feeling accomplished instead of fearful of what they are going to do, hide, or lie about next. You could transform your relationship with conflict and live life the way you want to. Rebecca Zung’s revolutionary SLAY Methodology will show you how to handle with narcissists once and for all, and once you conquer them anything is possible. This about you feeling valued, honored, and respected and setting yourself up so nothing and no one can ever infringe on that. After twenty years of dealing with narcissists as an attorney (including as clients and opposing clients) and unfortunately, dealing with them in her personal life, Rebecca has a deep understanding of a narcissist’s psyche, which she’s now turned into a simple step by step process to get what you want. In this book, Zung shares her framework to SLAY your negotiation with the narcissist. By the time you’re finished reading, you will know how to shift the narrative, the conversation, and the dynamic of power and be more confident and empowered in every aspect of your life!",
         isbn: "1234567890",
         author: "Rebecca Zung",
         genre: "Business Negotiation",
@@ -157,20 +159,30 @@ books.forEach(book => {
     bookCover.alt = `Cover image for ${book.title}`;
     bookDiv.appendChild(bookCover);
 
-    const bookTitle = document.createElement("h2");
+    const bookTitle = document.createElement("h1");
     bookTitle.className = "book-title";
     bookTitle.textContent = book.title;
     bookDiv.appendChild(bookTitle);
 
-    const bookSubtitle = document.createElement("h2");
+    const bookSubtitle = document.createElement("h4");
     bookSubtitle.className = "book-Subtitle";
     bookSubtitle.textContent = book.subtitle;
     bookDiv.appendChild(bookSubtitle);
 
     const bookDescription = document.createElement("p");
     bookDescription.className = "book-details";
-    bookDescription.textContent = `Description: ${book.description}`;
+    bookDescription.textContent = `    ${book.description}`;
     bookDiv.appendChild(bookDescription);
+
+    const bookDescriptionTwo = document.createElement("p");
+    bookDescriptionTwo.className = "book-details";
+    bookDescriptionTwo.textContent = `${book.descriptionTwo}`;
+    bookDiv.appendChild(bookDescriptionTwo);
+
+    const bookDescriptionThree = document.createElement("p");
+    bookDescriptionThree.className = "book-details";
+    bookDescriptionThree.textContent = `${book.descriptionThree}`;
+    bookDiv.appendChild(bookDescriptionThree);
 
     const bookISBN = document.createElement("p");
     bookISBN.className = "book-details";
