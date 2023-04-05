@@ -83,7 +83,7 @@ const backListBooks = [
         isbn: "1642938122",
         author: "Handel Jones",
         genre: "Technology",
-        coverUrl: "images/rZung.webp",
+        coverUrl: "images/aiRules.webp",
         releaseDate:"July 29, 2022"
     },
     {
