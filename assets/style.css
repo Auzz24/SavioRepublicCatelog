@@ -7,6 +7,10 @@ body {
   color: gray;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
+img{
+  width: 275px;
+  height: 340px;
+}
 
 #introduction-section {
   padding: 20px;
@@ -18,16 +22,14 @@ body {
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.4);
 }
 
-#introduction-section h1 {
+#introduction-section h1, h3 {
   text-align: center;
   margin-bottom: 20px;
   color: rgb(188, 54, 54);
-  text-decoration: underline gray;
+  
 }
-#introduction-section h3 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: rgb(188, 54, 54);
+#introduction-section h1 {
+  text-decoration: underline gray;
 }
 
 #introduction-section a {
@@ -58,12 +60,7 @@ ul {
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.3);
   color: rgb(188, 54, 54);
 }
-section {
-  background-color: white;
-}
-
-#newRel {
-  /* margin-top: 20px; */
+section, #newRel {
   background-color: white;
 }
 
@@ -85,7 +82,6 @@ section {
 }
 
 .book {
-  /* background-color: #f5f5f5; */
   margin: 10px;
   background-color: white;
   display: flex;
@@ -93,7 +89,7 @@ section {
   align-items: center;
   width: 45%;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 25px;
   box-sizing: border-box;
   transform: translateY(5px);
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.4);
@@ -107,6 +103,7 @@ section {
 
 .book-subtitle {
   margin: 0; /* Add this line to remove the space */
+  padding-bottom: 20px;
 }
 .book-details {
   margin-bottom: 5px;
