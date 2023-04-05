@@ -88,12 +88,14 @@ const backListBooks = [
     },
     {
         title: "The Five Elements of Relationships",
-        subtitle: "",
-        description: "Do you ever wonder why some people just rub you the wrong way? Or why you automatically click with others? Or maybe you even ask yourself, “Who am I, really?”Wouldn’t it be wonderful if you could understand why people are the way they are—and even better understand yourself? Now you can! And it’s simple and fun! Based on the ancient Five Elements model from Chinese medicine, Dr. Vicki Matthews has developed a simple way to describe our five basic personality types and the predictable ways in which they interact. Take your first step toward happier and more harmonious relationships in every area of your life—including a better relationship with yourself! The result of years of personal and professional experience, this invaluable book can improve every relationship you have and make your life better!",
+        subtitle: "How to Get Along with Anyone, Anytime, Anyplace",
+        description: "Do you ever wonder why some people just rub you the wrong way? Or why you automatically click with others? Or maybe you even ask yourself,“Who am I, really?”",
+        descriptionTwo:"Wouldn’t it be wonderful if you could understand why people are the way they are—and even better understand yourself? Now you can! And it’s simple and fun!",
+        descriptionThree:"  Based on the ancient Five Elements model from Chinese medicine, Dr. Vicki Matthews has developed a simple way to describe our five basic personality types and the predictable ways in which they interact. Take your first step toward happier and more harmonious relationships in every area of your life—including a better relationship with yourself! The result of years of personal and professional experience, this invaluable book can improve every relationship you have and make your life better!",
         isbn: "1637584512",
         author: "Dr. Viicki Matthews",
         genre: " Relationships",
-        coverUrl: "images/rZung.webp",
+        coverUrl: "images/fiveElements.jpg",
         releaseDate:"July 5th, 2022"
     },
     {
