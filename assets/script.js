@@ -204,8 +204,18 @@ backListBooks.forEach(book => {
 
     const bookDescription = document.createElement("p");
     bookDescription.className = "book-details";
-    bookDescription.textContent = `Description: ${book.description}`;
+    bookDescription.textContent = ` ${book.description}`;
     bookDiv.appendChild(bookDescription);
+
+    const bookDescriptionTwo = document.createElement("p");
+    bookDescriptionTwo.className = "book-details";
+    bookDescriptionTwo.textContent = `${book.descriptionTwo}`;
+    bookDiv.appendChild(bookDescriptionTwo);
+
+    const bookDescriptionThree = document.createElement("p");
+    bookDescriptionThree.className = "book-details";
+    bookDescriptionThree.textContent = `${book.descriptionThree}`;
+    bookDiv.appendChild(bookDescriptionThree);
 
     const bookISBN = document.createElement("p");
     bookISBN.className = "book-details";
