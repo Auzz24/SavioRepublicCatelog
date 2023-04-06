@@ -308,30 +308,29 @@ backListBooks.forEach(book => {
     backListBookContainer.appendChild(bookDiv);
 })
 
-function mailSend(event){
-
+function mailSend(event) {
     event.preventDefault();
-
-    const serviceId = "service_aueswr7"
-const templateId = "template_y3u0c29"
-
-    var emailParams ={
-        name: document.getElementById("name"),
-        email: document.getElementById("email"),
-        message: document.getElementById("message"),
-    }
-
+  
+    const serviceId = "service_aueswr7";
+    const templateId = "template_y3u0c29";
+  
+    var emailParams = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value,
+    };
+  
     emailjs
-    .send(serviceId, templateId, emailParams)
-    .then(() => {
+      .send(serviceId, templateId, emailParams)
+      .then(() => {
         document.getElementById("name").value = "";
-        document.getElementById("email").value="";
-        document.getElementById("message").value="";
-      alert("Email sent successfully!");
-    })
-    .catch(error => {
-      console.error("Failed to send email:", error);
-      alert("Failed to send email. Please try again later.");
-    });
-
-}
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+        alert("Email sent successfully!");
+      })
+      .catch((error) => {
+        console.error("Failed to send email:", error);
+        alert("Failed to send email. Please try again later.");
+      });
+  }
+  
