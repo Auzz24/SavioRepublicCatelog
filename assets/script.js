@@ -1,7 +1,8 @@
 const books = [
     {
         title: "Stand Alone",
-        subtitle: "WALLSTREET JOURNAL BESTSELLER IN BUSINESS",
+        subtitle: "How to Be an Extraordinary Leader",
+        description:"WALLSTREET JOURNAL BESTSELLER IN BUSINESS",
         descriptionTwo:"So many people are telling you what you want to hear....Finally someone is saying what we all need to hear. The truth about success is breathtaking and needed now more than ever. This book demonstrates what it really takes to succeed. Learn how to overcome obstacles and create the life you want by becoming the leader you were meant to be. Stand Alone will help you see how you can go from living an ordinary life—where life just happens to you—to living a life of significance and influence.",
         descriptionThree:"You will The importance of acceptance and transformation in leadership, and how to develop these qualities in yourself. You wil learn strategies for building a strong and diverse team that can weather any challenge. You will also learn Practical tips for setting goals, managing your time, and staying focused on what truly matters. Sabrina Lloyd is an entrepreneur, executive coach, and multi-millionaire living in Chicago. She leads with courage and strength and works to equip people with what they really need to succeed. Using the right tools and knowledge, she empowers people to become the courageous and strong leaders they were meant to be.",
         isbn: "1637582951",

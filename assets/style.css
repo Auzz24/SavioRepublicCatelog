@@ -32,12 +32,12 @@ img{
   text-decoration: underline gray;
 }
 
-#introduction-section a {
+ a {
   color: rgb(188, 54, 54);
   text-decoration: none;
 }
 
-#introduction-section a:hover {
+ a:hover {
   color: #4caf50;
   text-decoration: underline;
 }
