@@ -139,7 +139,7 @@ section, #newRel {
   box-sizing: border-box;
 }
 
-#contact-form input[type="submit"] {
+button {
   background-color: #4caf50;
   border: none;
   color: white;

@@ -307,3 +307,31 @@ backListBooks.forEach(book => {
 
     backListBookContainer.appendChild(bookDiv);
 })
+
+function mailSend(event){
+
+    event.preventDefault();
+
+    const serviceId = "service_aueswr7"
+const templateId = "template_y3u0c29"
+
+    var emailParams ={
+        name: document.getElementById("name"),
+        email: document.getElementById("email"),
+        message: document.getElementById("message"),
+    }
+
+    emailjs
+    .send(serviceId, templateId, emailParams)
+    .then(() => {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value="";
+        document.getElementById("message").value="";
+      alert("Email sent successfully!");
+    })
+    .catch(error => {
+      console.error("Failed to send email:", error);
+      alert("Failed to send email. Please try again later.");
+    });
+
+}
