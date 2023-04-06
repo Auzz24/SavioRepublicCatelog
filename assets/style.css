@@ -98,11 +98,11 @@ section, #newRel {
   font-weight: bold;
   font-size: 1.1em;
   margin: 10px 0 0 0;
-  /* Add this line to remove the space */
 }
 
 .book-subtitle {
-  margin: 0; /* Add this line to remove the space */
+  font-weight: normal;
+  margin: 0; 
   padding-bottom: 20px;
 }
 .book-details {
