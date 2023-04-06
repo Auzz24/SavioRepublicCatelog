@@ -32,7 +32,7 @@ const books = [
         isbn:"1637587481",
         author: "Greg Ennis",
         genre: "Technology",
-        coverUrl: "images/beyondeverywhere.jpg",
+        coverUrl: "images/beyondEverywhere.jpg",
         releaseDate:"July 18, 2023"
     },
     {
