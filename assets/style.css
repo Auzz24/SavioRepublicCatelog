@@ -7,7 +7,7 @@ body {
   color: gray;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
-img{
+img {
   width: 275px;
   height: 340px;
 }
@@ -22,22 +22,22 @@ img{
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.4);
 }
 
-#introduction-section h1, h3 {
+#introduction-section h1,
+h3 {
   text-align: center;
   margin-bottom: 20px;
   color: rgb(188, 54, 54);
-  
 }
 #introduction-section h1 {
   text-decoration: underline gray;
 }
 
- a {
+a {
   color: rgb(188, 54, 54);
   text-decoration: none;
 }
 
- a:hover {
+a:hover {
   color: #4caf50;
   text-decoration: underline;
 }
@@ -60,7 +60,8 @@ ul {
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.3);
   color: rgb(188, 54, 54);
 }
-section, #newRel {
+section,
+#newRel {
   background-color: white;
 }
 
@@ -102,7 +103,7 @@ section, #newRel {
 
 .book-subtitle {
   font-weight: normal;
-  margin: 0; 
+  margin: 0;
   padding-bottom: 20px;
 }
 .book-details {
